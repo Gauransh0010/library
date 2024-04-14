@@ -20,7 +20,7 @@ public class User {
 	private String email;
 	
 	public User(UserEntity userEntity) {
-		this.id = userEntity.get
+		this.id = userEntity.getId();
 	}
 	
 
